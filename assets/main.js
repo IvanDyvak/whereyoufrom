@@ -107,15 +107,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    var searchCtrl = L.control.fuseSearch();
-    searchCtrl.addTo(map);
-
-    searchCtrl.indexFeatures(regionsdata, ['name', 'company', 'details']);
-    L.geoJson(regionsdata, {
-        onEachFeature: function (feature, layer) {
-            feature.layer = layer;
-        }
-    });
+    // var searchCtrl = L.control.fuseSearch();
+    // searchCtrl.addTo(map);
+    //
+    // searchCtrl.indexFeatures(regionsdata, ['name', 'company', 'details']);
+    // L.geoJson(regionsdata, {
+    //     onEachFeature: function (feature, layer) {
+    //         feature.layer = layer;
+    //     }
+    // });
 
 
 });
